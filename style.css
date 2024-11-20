@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: star;
+    src: url(starbucks.ttf.ttf);
+}
+@font-face {
+    font-family: coffee;
+    src: url(coffee.ttf.ttf);
+}
+#stb{
+    font-family: star;
+    font-size: 5vw;
+    color: rgb(44, 170, 111);
+}
+#cream{
+    font-family: coffee;
+}
+
+.container{
+    display: flex;
+      height: 100%;
+    width: 100%;
+  
+
+}
+
+.box1{
+    height: 100%;
+    width: 60%;
+background-color: rgb(235, 230, 230);
+   
+}
+
+.navbar{
+    width: 100%;
+    height: 1vw;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1.5vw 3vw;
+ margin: 2vw;
+}
+
+.navbar h3{
+    font-size: 3vw;
+    color:rgb(44, 170, 111) ;
+}
+
+.navbar h4{
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+
+.navbar img{
+    height: 4vw;
+}
+
+
+.hero{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 5vw;
+    line-height: 4vw;
+}
+
+.hero h1{
+    font-size: 3vw;
+    color: rgb(0, 0, 0) ;
+}
+
+.hero h1 span{
+    font-size: 3vw;
+    color: black;
+}
+.hero h3 {
+    font-size: 3vw;
+    color: rgb(58, 58, 58);
+}
+.hero h3 span{
+    font-size: 3vw;
+    color: rgb(255, 0, 0);
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 10vw;
+    font-size: 2.5vw;
+    border-radius: 25%;
+    background-color:rgb(44, 170, 111)  ;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:rgb(38, 121, 82) ;
+
+}
+
+.footer{
+    height: 2vw;
+    width: 100%;
+    font-size: 3vw;
+    padding: 5vw 5vw;
+    margin-top: 3vw;
+    color: rgb(44, 170, 111) ;
+  
+}
+
+.box2{
+  
+    width: 40%;
+    background-color: rgb(44, 170, 111);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box2 #beans{
+    height: 30vw;
+    margin-bottom: 5vw;
+    position: absolute;
+    transition: margin-bottom 0.5s ease;
+ 
+ 
+}
+
+.box2 #coffee{
+    height: 30vw;
+    margin-top: 10vw;
+    position: absolute;
+    transition: margin-right 0.5s ease;
+ 
+}
+
+
+/* .box2 #coffee:hover{
+   margin-right: 50vw;
+
+}
+.box2 #beans:hover{
+   margin-bottom: 30vw;
+
+} */
+
+.info{
+    height: 20vw;
+    width: 30vw;
+     border-radius: 2vw;
+     padding: 5vw 2vw;
+    display: block;
+    align-items: center;
+    text-align: center;
+     justify-content: center;
+     background-color: rgba(255, 255, 255, 0.644);
+     display: none;
+     transition: margin-right 0.5s ease;
+}
